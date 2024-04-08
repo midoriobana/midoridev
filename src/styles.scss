@@ -1,8 +1,12 @@
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 /* You can add global styles to this file, and also import other style files */
 // importing core styling file
-@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-
-body{
-  font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
